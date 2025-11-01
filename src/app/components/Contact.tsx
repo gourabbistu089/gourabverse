@@ -36,10 +36,13 @@ export default function LuxuryContact() {
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
+  const handleChange: React.ChangeEventHandler<
+  HTMLInputElement | HTMLTextAreaElement
+> = (e) => {
+  const { name, value } = e.target;
+  setFormData((prev) => ({ ...prev, [name]: value }));
+};
+
 
   return (
     <section id="contact" className="relative py-24 overflow-hidden">
