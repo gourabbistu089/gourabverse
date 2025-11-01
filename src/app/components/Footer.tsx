@@ -99,7 +99,7 @@ export default function Footer() {
                 <Linkedin size={24} />
               </a>
               <a
-                href={siteConfig.social.twitter}
+                href={siteConfig.social.x}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
