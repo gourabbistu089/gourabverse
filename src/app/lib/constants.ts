@@ -9,6 +9,16 @@ export const navItems: NavItem[] = [
 ];
 
 export const projects: Project[] = [
+  
+  {
+    id: '0',
+    title: 'Task Manager App',
+    description: 'A modern task manager app built with Next.js, Framer-Motion, and Tailwind CSS',
+    image: '/projects/site0.png',
+    technologies: ['Next.Js','Framer-Motion' ,'Tailwind CSS'],
+    liveUrl: 'https://vercel.com/gourab-bistus-projects/task-manager-app',
+    githubUrl: 'https://github.com/gourabbistu089/task-manager-app',
+  },
   {
     id: '1',
     title: 'InterviewReady',
@@ -63,7 +73,9 @@ export const projects: Project[] = [
     technologies: ['React.js', 'Flusk','Random Forest','Tailwind CSS'],
     liveUrl: 'https://crops-detection-app.vercel.app/',
     githubUrl: 'https://github.com/gourabbistu089/crops-detection-app',
-  }
+  },
+  
+
 ];
 
 export const skills: Skill[] = [
